@@ -119,6 +119,7 @@ create table course_enrollments(
     constraint uk_email_notification unique (email_notification)
     );
 
+
 -- Project 3: User Registration System
 -- Table: users
 -- Primary key: user_id
@@ -131,4 +132,13 @@ create table users(
 
 --'truncate' a table===truncate means table exits but it's data delete or haven't.
 truncate table person2;
+
+drop table course_enrollments;
+drop table courses;
+drop table items;
+drop table employees;
+drop table employees1;
+drop table person3;
+drop table users;
+drop table students;
 

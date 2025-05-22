@@ -78,3 +78,6 @@ cross join orders;
 --Natural Join
 select * from customers
 natural join orders;
+
+drop table orders;
+drop table customers;
